@@ -34,7 +34,7 @@ export default function Home(){
   }
   return (
     <div style={{ padding: '20px', maxWidth: '600px', margin: 'auto'}}>
-      <h1>Gemini Chatbot</h1>
+      <h1>SIMPLE Chatbot</h1>
       <div style={{ border:"1px solid #090404ff", padding: '20px', height: '400px', overflowY: 'scroll'}}>
         {messages.map((msg, index) => (
           <div key={index} style={{ textAlign: msg.sender === 'user' ? 'right' : 'left', margin: '5px 0'}}>
